@@ -4,7 +4,10 @@
 
 ## 📁Project structure
 
-![Chat UI Screenshot](Screenshot/chat_ui.png)
+multi_user_chat_application/
+├── screenshots/
+│   └── chat_ui.png
+├── README.md
 
 
 ## 🚀 Features
@@ -24,16 +27,16 @@
 
 ## 🧑‍💻 How to Run Locally
 
-# Clone the repository
+1.Clone the repository
 git clone https://github.com/gst2604/multi_user_chat_application.git
 
-# Navigate into the project folder
+2.Navigate into the project folder
 cd multi_user_chat_application
 
-# Install dependencies
+3.Install dependencies
 npm install
 
-# Start the server
+4.Start the server
 npm start
 
 ## 🤝 Contribution
