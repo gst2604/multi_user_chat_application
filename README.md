@@ -4,14 +4,8 @@
 
 ## 📁Project structure
 
-multi_user_chat_application/
-│
-├── public/              # Static files (HTML, CSS, JS)
-│
-├── server.js            # Main server logic
-├── models/              # MongoDB schemas (if any)
-├── package.json         # Project metadata and dependencies
-└── README.md            # Project documentation
+![Chat UI Screenshot](Screenshot/chat_ui.png)
+
 
 ## 🚀 Features
 
