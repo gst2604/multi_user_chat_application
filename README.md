@@ -4,10 +4,19 @@
 
 ## 📁Project structure
 ```
-multi_user_chat_application/
-├── screenshots/
-│   └── chat_ui.png
-├── README.md
+multi-room-chat-app/
+├── models/
+│   └── message.js
+├── public/
+│   ├── app.js
+│   ├── chat-app.png
+│   ├── index.html
+│   └── style.css
+├── .gitignore
+├── package-lock.json
+├── package.json
+├── server.js
+└── README.md
 ```
 
 ## 🚀 Features
