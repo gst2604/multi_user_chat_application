@@ -16,7 +16,7 @@ multi-room-chat-app/
 ├── package-lock.json
 ├── package.json
 ├── server.js
-└── README.md
+README.md
 ```
 
 ## 🚀 Features
