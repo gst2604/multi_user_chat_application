@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <link rel="stylesheet" href="style.css" />
 
     <script
@@ -29,6 +29,17 @@
             <span>Chat <span class="colored">App</span></span>
           </div>
 
+          <div class="profile-section">
+            <div class="profile-photo">
+              <img id="profile-img" src="/uploads/default-avatar.png" alt="Profile" />
+              <label for="profile-upload" class="change-photo">
+                <i class="fas fa-camera"></i>
+              </label>
+              <input type="file" id="profile-upload" accept="image/*" style="display: none;" />
+            </div>
+            <span id="profile-username" class="profile-username"></span>
+          </div>
+
           <span class="user_label">Users</span>
           <div id="active_users_list" class="active_users_list"></div>
         </div>
@@ -43,9 +54,20 @@
                 id="messageInput"
                 placeholder="Enter message"
               />
-              <button id="send_message_btn" class="send_message_btn" id="send">
-                SEND
-              </button>
+              <div class="message-actions">
+                <label for="image-upload" class="upload-btn">
+                  <i class="fas fa-image"></i>
+                </label>
+                <input type="file" id="image-upload" accept="image/*" style="display: none;" />
+                
+                <button id="voice-record-btn" class="voice-btn">
+                  <i class="fas fa-microphone"></i>
+                </button>
+                
+                <button id="send_message_btn" class="send_message_btn">
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </div>
             </div>
           </div>
         </div>
