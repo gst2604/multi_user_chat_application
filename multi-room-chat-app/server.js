@@ -52,6 +52,16 @@ io.on("connection", function (socket) {
     const message = new Message(messageData);
     await message.save();
 
+     // Save to text file
+    const logLine = `[${new Date().toISOString()}] [${messageData.room}] ${messageData.username}: ${messageData.message}\n`;
+    const logPath = path.join(__dirname, 'chat_log.txt');
+  
+    fs.appendFile(logPath, logLine, (err) => {
+      if (err) {
+        console.error('❌ Error writing chat to file:', err);
+      }
+    });
+    
     io.to(messageData.room).emit('updateChat', messageData.username, messageData.message);
   });
 
