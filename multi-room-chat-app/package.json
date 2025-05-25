@@ -15,7 +15,7 @@
     "websockets",
     "socket.io"
   ],
-  "author": "Raj Asha",
+  "author": "Gaurav Tiwari",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
