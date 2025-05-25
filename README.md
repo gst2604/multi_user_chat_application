@@ -28,6 +28,20 @@ multi_user_chat_application/
 - **WebSocket**: Socket.IO
 - **Database**: MongoDB with Mongoose
 
+## 🧑‍💻 How to Run Locally
+
+# Clone the repository
+git clone https://github.com/gst2604/multi_user_chat_application.git
+
+# Navigate into the project folder
+cd multi_user_chat_application
+
+# Install dependencies
+npm install
+
+# Start the server
+npm start
+
 ## 🤝 Contribution
 
 - **Gaurav Tiwari** – Worked on backend
