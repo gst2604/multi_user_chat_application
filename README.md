@@ -28,16 +28,16 @@ multi_user_chat_application/
 ## 🧑‍💻 How to Run Locally
 
 1.Clone the repository
-git clone https://github.com/gst2604/multi_user_chat_application.git
+-git clone https://github.com/gst2604/multi_user_chat_application.git
 
 2.Navigate into the project folder
-cd multi_user_chat_application
+-cd multi_user_chat_application
 
 3.Install dependencies
-npm install
+-npm install
 
 4.Start the server
-npm start
+-npm start
 
 ## 🤝 Contribution
 
