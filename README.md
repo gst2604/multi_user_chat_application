@@ -41,7 +41,6 @@ multi_user_chat_application/
 
 ## 🤝 Contribution
 
-- **Gaurav Tiwari** – Worked on backend
+- **Gaurav Tiwari && Vaishnavi Durgapal** – Worked on backend ,testing and bug fixing
 - **Rishabh Joshi** – Assisted in database integration
-- **Vaishnavi Durgapal** – Worked on testing and bug fixing
 - **Luv Tiwari** – Helped with UI design and frontend
