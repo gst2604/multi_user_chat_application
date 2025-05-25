@@ -3,12 +3,12 @@
 - A real-time multi-room chat web application built using **Node.js**, **Express**, **Socket.IO**, and **MongoDB**. It allows multiple users to join different chat rooms and exchange messages instantly.
 
 ## 📁Project structure
-
+```
 multi_user_chat_application/
 ├── screenshots/
 │   └── chat_ui.png
 ├── README.md
-
+```
 
 ## 🚀 Features
 
